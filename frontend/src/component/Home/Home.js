@@ -34,13 +34,12 @@ const Home = () => {
        </div>
        <h2 className="homeHeading">Featured Products</h2>
        <div className="container" id="container">
-        {products &&
-              products.filter((product,i) =>{
-                if(i<9){
+       {products &&
+              products.map((product) =>{ 
                 return(
                 <Product product={product} />
-              )}})}
-              </div>
+              )})}
+       </div>
       </>}
       </>
    
