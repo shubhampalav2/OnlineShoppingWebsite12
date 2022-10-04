@@ -41,7 +41,7 @@ const Home = () => {
                 return(
                 <Product product={product} />
               )})}
-              <div>
+              </div>
       </>}
       </>
    
