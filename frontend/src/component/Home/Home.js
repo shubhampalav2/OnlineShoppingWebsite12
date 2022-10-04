@@ -37,10 +37,11 @@ const Home = () => {
         {products &&
               products.map((product,i) =>{ 
                 if(i===9)
-                return;
+                return 1;
+                else{
                 return(
                 <Product product={product} />
-              )})}
+              )}})}
               </div>
       </>}
       </>
